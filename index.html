@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Omar Elhalawy - Medical Practice</title>
+  <meta name="description" content="Professional healthcare services with a personalized approach">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header - Doctor's name and logo -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo-container">
+        <!-- Logo -->
+        <div class="logo">
+          <span>DR</span>
+        </div>
+        <h1>Dr. Omar Elhalawy</h1>
+      </div>
+
+      <!-- Mobile contact button -->
+      <button class="btn btn-outline mobile-contact">
+        <i class="fas fa-phone"></i>
+        Contact
+      </button>
+
+      <!-- Desktop navigation -->
+      <nav class="desktop-nav">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+        <button class="btn btn-primary">
+          <i class="fas fa-calendar"></i>
+          Book Appointment
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="main-content">
+    <div class="container">
+      <div class="two-column-grid">
+        <!-- Left column - Doctor's info -->
+        <div class="left-column">
+          <!-- Doctor's image -->
+          <div class="doctor-image">
+            <img src="./src/imgs/profile-img.jpg" alt="Dr. Omar Elhalawy">
+          </div>
+
+          <!-- Address -->
+          <div class="card address-card">
+            <h2>
+              <i class="fas fa-map-marker-alt"></i>
+              Office Address
+            </h2>
+            <address>
+              <p>123 Medical Center Drive</p>
+              <p>Suite 456</p>
+              <p>San Francisco, CA 94123</p>
+            </address>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>(555) 123-4567</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>contact@drjohnson.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-clock"></i>
+                <span>Mon-Fri: 9am-5pm</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Appointment buttons -->
+          <div class="appointment-buttons">
+            <button class="btn btn-primary btn-large">
+              <i class="fas fa-calendar"></i>
+              Book Online Appointment
+            </button>
+            <button class="btn btn-outline btn-large">
+              <i class="fas fa-phone"></i>
+              Call for Appointment
+            </button>
+          </div>
+        </div>
+
+        <!-- Right column - Content -->
+        <div class="right-column">
+          <!-- Welcome section -->
+          <section class="welcome-section">
+            <h2>Welcome to Our Practice</h2>
+            <p>
+              Dr. Omar Elhalawy and his team are dedicated to providing exceptional healthcare with a personalized
+              approach. With over 15 years of experience, we combine cutting-edge medical techniques with
+              compassionate care.
+            </p>
+            <p>
+              Our mission is to help you achieve optimal health and wellness through comprehensive care, education,
+              and preventive medicine.
+            </p>
+          </section>
+
+          <!-- Services section -->
+          <section id="services" class="services-section">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+              <!-- Service items -->
+              <div class="service-card">
+                <h3>General Check-ups</h3>
+                <p>Comprehensive health assessments</p>
+              </div>
+              <div class="service-card">
+                <h3>Preventive Care</h3>
+                <p>Vaccinations and screenings</p>
+              </div>
+              <div class="service-card">
+                <h3>Chronic Disease Management</h3>
+                <p>Ongoing care for long-term conditions</p>
+              </div>
+              <div class="service-card">
+                <h3>Women's Health</h3>
+                <p>Specialized care for women</p>
+              </div>
+            </div>
+            <a href="#" class="link">View all services →</a>
+          </section>
+
+          <!-- Reviews section -->
+          <section id="reviews" class="reviews-section">
+            <h2>Patient Reviews</h2>
+            <div class="review-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>4.9/5</span>
+              </div>
+              <p class="review-text">
+                "Dr. Elhalawy is an exceptional doctor who truly listens to his patients. His staff is friendly and the
+                office is always clean and welcoming."
+              </p>
+              <p class="reviewer">— Maria S., Patient since 2018</p>
+            </div>
+            <button class="btn btn-outline btn-full">
+              <i class="fas fa-star"></i>
+              See All Reviews on Google
+            </button>
+          </section>
+
+          <!-- Location section -->
+          <section id="location" class="location-section">
+            <h2>Our Location</h2>
+            <div class="map-container">
+              <img src="https://placehold.co/600x300" alt="Office location map">
+            </div>
+            <button class="btn btn-outline btn-full">
+              <i class="fas fa-map-marker-alt"></i>
+              Open in Google Maps
+            </button>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Contact info -->
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <address>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Medical Center Drive, San Francisco</p>
+            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> contact@droelhalawy.com</p>
+          </address>
+        </div>
+
+        <!-- Quick links -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Hours -->
+        <div class="footer-column">
+          <h3>Office Hours</h3>
+          <ul class="hours-list">
+            <li><span>Monday - Friday:</span> <span>9:00 AM - 5:00 PM</span></li>
+            <li><span>Saturday:</span> <span>10:00 AM - 2:00 PM</span></li>
+            <li><span>Sunday:</span> <span>Closed</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="current-year"></span> Dr. Omar Elhalawy Medical Practice. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
